@@ -9,14 +9,14 @@ export default function Contact() {
       </h2>
 
       <p className="text-gray-400 max-w-2xl mx-auto mb-10">
-        I'm always open to connecting about new opportunities, backend projects, or collaborations in
-        <span className="text-indigo-400 font-semibold"> Java Spring Boot</span> and 
-        <span className="text-indigo-400 font-semibold"> AI-driven systems</span>.
+        I'm always open to connecting about new opportunities, backend projects, or collaborations in{" "}
+        <span className="text-indigo-400 font-semibold">Java Spring Boot</span> and{" "}
+        <span className="text-indigo-400 font-semibold">AI-driven systems</span>.
         Reach out via email or connect with me on LinkedIn and GitHub!
       </p>
 
       {/* ==== Social Buttons ==== */}
-      <div className="flex justify-center gap-6">
+      <div className="flex justify-center gap-6 flex-wrap">
         {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/goutam-heer-software-dev/"
@@ -41,7 +41,7 @@ export default function Contact() {
 
         {/* Email */}
         <a
-          href="mailto:goutamheer2323@gmail.com"
+          href="mailto:goutamheer1702@gmail.com"
           className="flex items-center gap-2 px-5 py-3 bg-gray-800 rounded-lg text-gray-300 hover:bg-indigo-700 hover:text-white transition"
         >
           <FaEnvelope className="text-xl" />
